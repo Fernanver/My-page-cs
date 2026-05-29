@@ -184,3 +184,14 @@
     border-right-color: var(--border);
   }
 }
+#crt-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 13;
+  pointer-events: none;
+  background: radial-gradient(
+    ellipse at center,
+    transparent 30%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+}

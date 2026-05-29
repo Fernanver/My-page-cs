@@ -1,17 +1,18 @@
 import './App.css'
-import Header from './componentes/header.jsx' 
+import Sidebar from './componentes/sidebar.jsx'
 
 function App() {
   return (
     <>
-      <Header />
+      <div id="crt-overlay"></div>
 
-      <main className="center">
-        <h1>Hola estas</h1>
+      <Sidebar />
+
+      <main id="center">
+        <h1>Hola como estas</h1>
       </main>
     </>
   );
 }
-
 
 export default App;
